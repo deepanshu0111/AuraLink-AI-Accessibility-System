@@ -6,6 +6,8 @@ export default defineConfig({
   server: {
     port: 5173,
     strictPort: false,
+  },
+  preview: {
     allowedHosts: ['auralink-ai-accessibility-system.onrender.com'],
   }
 });
